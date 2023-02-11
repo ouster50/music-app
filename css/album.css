@@ -1,0 +1,54 @@
+body {
+    min-width: 580px;
+}
+
+.progress-ber {
+    width: 0%;
+}
+
+.track div {
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+
+.play-pause-icon {
+    height: 25px;
+}
+
+.track:hover {
+    outline: 3px solid #ffdb4d;
+}
+
+.name, .author {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.muted {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+li {
+    height: 70px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    .card-text { 
+       font-size: 14px; 
+    }
+
+    .card-body {
+        margin: 0;
+    }
+
+    .song-text {
+        font-size: 14px;
+    }
+ 
+ }
